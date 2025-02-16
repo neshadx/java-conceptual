@@ -45,11 +45,28 @@ else {
     console.log("I don't go market");
 }
 
- */
-
-
 var num1 = 10;
 if (num1 >= 5 || num1 == 0) {
     console.log("Yes sir");
 }
+
+*Nested
+var alex = "Usa";
+
+if (alex == "Usa") {
+    if (alex.length == 3) {
+        console.log("This is alex");
+    } 
+    else {
+        console.log("This is not alex");
+    }
+}
+else if (alex == "Bangladesh") {
+    console.log("Let's go tsc");
+}
+else {
+    console.log("Alex is missing");
+}
+
+ */
 
