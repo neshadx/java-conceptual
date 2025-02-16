@@ -70,3 +70,30 @@ else {
 
  */
 
+
+/**
+ * 3.Array
+ 
+var friends =["Alex", "Jung", 7, {}, []];
+// count
+// console.log(friends.length); 
+
+// index find
+// console.log(friends[1]); 
+
+// friends.push("Alisha");
+// console.log(friends);
+
+
+// friends.pop();
+// console.log(friends);
+
+// friends.unshift("Lisa");
+// console.log(friends);
+
+// friends.shift();
+// console.log(friends);
+
+// var newArray = friends.slice(2,3);
+// console.log(newArray);
+ */
