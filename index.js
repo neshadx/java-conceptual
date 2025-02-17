@@ -97,3 +97,6 @@ var friends =["Alex", "Jung", 7, {}, []];
 // var newArray = friends.slice(2,3);
 // console.log(newArray);
  */
+
+
+
