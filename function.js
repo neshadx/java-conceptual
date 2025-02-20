@@ -221,32 +221,32 @@ console.log(result);
 // console.log(result1, result2); // ✅ Should print: true false
 
 
-// function calculateWatchTime(watchTimes) {
-//     // 🚩 Challenge: Check if input is an array and all elements are numbers
-//     if (!Array.isArray(watchTimes)) {
-//         return "Invalid";
-//     }
+function calculateWatchTime(watchTimes) {
+    // 🚩 Challenge: Check if input is an array and all elements are numbers
+    if (!Array.isArray(watchTimes)) {
+        return "Invalid";
+    }
 
-//     for (let i = 0; i < watchTimes.length; i++) {
-//         if (typeof watchTimes[i] !== "number") {
-//             return "Invalid";
-//         }
-//     }
+    for (let i = 0; i < watchTimes.length; i++) {
+        if (typeof watchTimes[i] !== "number") {
+            return "Invalid";
+        }
+    }
 
-//     // Calculate total watch time in seconds
-//     let totalSeconds = 0;
-//     for (let i = 0; i < watchTimes.length; i++) {
-//         totalSeconds += watchTimes[i];
-//     }
+    // Calculate total watch time in seconds
+    let totalSeconds = 0;
+    for (let i = 0; i < watchTimes.length; i++) {
+        totalSeconds += watchTimes[i];
+    }
 
-//     // Convert seconds to hours, minutes, and seconds
-//     const hour = Math.floor(totalSeconds / 3600);
-//     const minute = Math.floor((totalSeconds % 3600) / 60);
-//     const second = totalSeconds % 60;
+    // Convert seconds to hours, minutes, and seconds
+    const hour = Math.floor(totalSeconds / 3600);
+    const minute = Math.floor((totalSeconds % 3600) / 60);
+    const second = totalSeconds % 60;
 
-//     return { hour, minute, second };
-// }
+    return { hour, minute, second };
+}
 
-// // Example Usage
-// const result = calculateWatchTime([100, 99, 119, 300]); 
-// console.log(result); // Expected Output: { hour: 1, minute: 32, second: 45 }
+// Example Usage
+const result = calculateWatchTime([100, 99, 119, 300]); 
+console.log(result); // Expected Output: { hour: 1, minute: 32, second: 45 }
